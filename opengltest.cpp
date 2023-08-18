@@ -32,7 +32,7 @@ int main()
         return -1;
     }
 
-    Shader* shader = new Shader("shaderFile/vertexShader.glsl", "ShaderFile/fragmentShader.glsl");
+    Shader* shader = new Shader("ShaderFile/vertexShader.glsl", "ShaderFile/fragmentShader.glsl");
     
 
     float vertices[] =
